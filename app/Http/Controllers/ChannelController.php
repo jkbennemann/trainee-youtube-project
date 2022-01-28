@@ -9,6 +9,13 @@ class ChannelController extends Controller
 {
     public function show(string $id)
     {
+        //create new Channel model with channel_id and playlist_id
+
+        //TODO:: implementation...
+        //...
+
+        //save model
+
         $ytApi = new YoutubeApiService();
         $channelInformation = $ytApi->getChannelInformation($id);
 
