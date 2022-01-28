@@ -27,7 +27,7 @@ class YoutubeApiService
         $apiUrl = sprintf(
             '%s%s?part=%s&id=%s&key=%s',
             self::API_BASE_URL,
-            'channel',
+            'channels',
             'snippet,contentDetails,statistics',
             $channelId,
             $this->apiKey
