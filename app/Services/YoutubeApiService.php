@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Services;
+
 /*
  * Youtube Data API v3 - Simple Client
  *
@@ -8,6 +10,7 @@
  */
 
 use Illuminate\Support\Collection;
+use Illuminate\Support\Facades\Http;
 
 class YoutubeApiService
 {
